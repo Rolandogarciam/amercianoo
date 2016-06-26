@@ -1,0 +1,45 @@
+<header class="header"> 
+  <div class="subheader"> 
+    <nav class="navbar navbar-light bg-faded">
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+          &#9776;
+        </button>
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+        <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png" alt="" /></a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">&#191Qui&#233nes Somos?</a>
+          </li>
+          <li class="nav-item" ng-mouseleave="hover2 = false">
+            <div class="dropdown" ng-class="{active: hover2}" ng-mouseenter="hover2 = true">
+              <a class="nav-link dropdown-toggle" id="dropdownMenu2" aria-haspopup="true" aria-expanded="false">
+                Zona Alumnos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" ng-mouseleave="hover2 = false">
+                <a class="dropdown-item" target="_blank" href="http://190.85.149.2/insoftacademico/(S(rnfw54pttisobwmei34vw0io))/ModAlumnos/frmInsoftLogin.aspx">Revisar Notas</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="">Pruebas de Ingreso</a>
+                <a class="dropdown-item" target="_blank" href="http://www.politecnicoamericano.edu.co/ecolpa/index.php">Prueba de Ecolpa</a>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item" ng-mouseleave="hover1 = false">
+            <div class="dropdown" ng-class="{active: hover1}" ng-mouseenter="hover1 = true">
+              <a class="nav-link dropdown-toggle" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false" >
+                Zona Docentes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" ng-mouseleave="hover1 = false">
+                <a class="dropdown-item" target="_blank" href="http://190.85.149.2/insoftacademico/(S(rnfw54pttisobwmei34vw0io))/frminicio.aspx">Ingresar Notas</a>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Cont&#225ctenos</a>
+          </li>            
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>

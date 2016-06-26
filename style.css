@@ -1,0 +1,275 @@
+* {
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.flexslider-container {
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.header .subheader {
+	margin: 0 auto;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .collapse {
+  text-align: center;
+}
+
+.navbar{
+	background-color: #fff;
+	border-radius: 0;
+  	padding: 0;
+}
+
+.navbar .collapse{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	position: relative;
+}
+
+.navbar .tittle{	
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #272680;
+	text-shadow: 2px 2px #9cba3f;
+	font: 800 32px/1.5em Arial;
+}
+
+.navbar-brand{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+
+.navbar-brand .img-responsive{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.navbar-nav .nav-item {
+	display: block;
+	height: 30px;
+	width: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #9cba3f;
+	margin-left:40px; 
+	font: 800 18px/1em Arial;
+  	padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #272679;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #272679;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover {
+	color: #272679;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover {
+	color: #272679;
+}
+
+.dropdown {
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	border: none;
+	background: rgba(0,32,108,0.5);
+	border-radius: 0;
+}
+
+.dropdown-item {
+	color: #fff;
+	font: 600 18px Arial;
+}
+
+.dropdown.active .dropdown-menu {
+	display: block;
+	left: 40px;
+}
+
+.flexslider .slides {	
+	text-align: center;
+}
+
+.flexslider .slides .carousel-inner img {
+	position: relative;
+	z-index: -100;
+	width: 100%;
+	height: 400px;		
+}
+
+.flexslider .slides .carousel-caption {
+	bottom: 174px;
+    height: 100px;
+    position: absolute;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.flexslider .slides .carousel-caption a{
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.flexslider .slides .carousel-caption a:hover{
+	color: #9cba3f;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.flexslider .slides .caption-block {
+	width: 100%;
+	background-color: rgba(0,32,108,0.5);
+    padding-top: 10px;
+}
+
+
+.img-item {
+	display: inline-block;	
+	margin-left: 50px;
+}
+
+.carousel-control.left {
+    background:none;
+}
+
+.carousel-control.right {
+    background:none;
+}
+
+.carousel-control .icon-next, .carousel-control .icon-prev{
+	top: 45%;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#one {
+	background: url('img/logos-politecnicoamericano.png') no-repeat -152px 0;
+	width: 83px;
+	height: 137px;
+}
+
+#two {
+	background: url('img/logos-politecnicoamericano.png') no-repeat -249px 4px;
+	margin-top: 4px;
+	width: 84px;
+	height: 141px;
+}
+
+#three {
+	background: url('img/logos-politecnicoamericano.png') no-repeat 0 -8px;
+	width: 114px;
+	height: 116px;
+}
+
+#four {
+	background: url('img/logos-politecnicoamericano.png') no-repeat -347px 0;
+	width: 86px;
+	height: 141px;
+}
+
+#footer {
+  position: relative;
+  padding-top: 30px;
+  clear: both;
+  bottom: 0;
+  background:  rgba(156, 186, 63, 0.8);
+  color: #272680;	
+  font: 600 9px/2em Arial;
+}
+
+#footer .offert{
+	text-align: left;
+}
+
+#footer h3{
+  text-align: center;
+  color: #fff;
+  font: 800 12px/1.5em Arial;
+}
+
+#footer div a{
+	color: #272680;
+	text-decoration: none;
+}
+
+#footer div a:hover{
+	color: #fff;
+}
+
+#footer div ul li{
+	list-style: none;
+}
+
+#map { height: 400px; width: 100% margin: 0; }
+
+dl, ol, ul{
+	margin-bottom: 0px !important;
+}
+
+hr{
+	width: 90%;
+    border: none;
+    height: 2px;
+    color: #fff; 
+    background-color: rgba(255,255,255,0.5); 
+}
+
+.col-xs-pull-1 {
+    right: 5.333%;
+}
+
+@media screen and (max-width: 860px) {
+	.carousel-control .icon-next {
+	    right: 80%;
+	    margin-right: 0px !important;
+	}
+}
+
+@media screen and (min-width: 554px) {
+	.carousel-control .icon-next {
+	    margin-right: 0px !important;
+	}
+}
+	
