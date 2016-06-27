@@ -2,17 +2,13 @@
 	padding: 0px;
 	margin: 0 auto;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
 	width: 100%;
 	height: 100%;
-	text-align: center;
-}
-
-#main {
-	width: 90%;
-	margin: 0 auto;
+	background: #dad6d5;
 }
 
 .flexslider-container {
@@ -34,10 +30,6 @@ body {
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
-}
-
-.navbar .collapse {
-  text-align: center;
 }
 
 .navbar{
@@ -177,6 +169,10 @@ body {
 
 .carousel-control .icon-next, .carousel-control .icon-prev{
 	top: 45%;
+}
+
+#home {
+	color: #000;
 }
 
 ol ol, ol ul, ul ol, ul ul {

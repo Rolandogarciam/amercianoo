@@ -3,7 +3,6 @@
 	angular
 		.module('appBanner', ['angular-flexslider', 'ngRoute'])
 		.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-			
 			$locationProvider.html5Mode(true);		
             $routeProvider.when('/index',{
                 templateUrl: 'views/main.html'
