@@ -1,0 +1,86 @@
+<footer id="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-6 offert">
+				<h3>OFERTA FORMATIVA</h3>
+				<div ng-repeat="curso in cursos track by $index" ng-switch on="$index % 2">
+					<div class="col-xs-6 col-xs-push-1" ng-switch-when="0">
+						<a href="">{{cursos[$index].name}}</a>
+					</div>
+					<div class="col-xs-6" ng-switch-when="0">
+						<a href="">{{cursos[$index+1].name}}</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-2 col-xs-pull-1" >
+				<h3>EMPRESAS</h3>
+				<ul>
+					<li><a href=""> FORMACION A MEDIDA</a></li>
+					<li><a href=""> ACTUALIZACION DIGITAL</a></li>
+					<li><a href=""> BOLSA DE PROFESIONALES</a></li>
+					<li><a href=""> ALQUILER DE AULAS</a></li>
+					<li><a href=""> PASANTIAS</a></li>
+					<li><a href=""> CONVENIOS CON UNIVERSIDADES</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-4 col-xs-pull-1">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="col-xs-6">
+							<h3>NOSOTROS</h3>
+							<ul>
+								<li><a href=""> CONTACTENOS</a></li>
+								<li><a href=""> POLITICA DE CALIDAD</a></li>
+								<li><a href=""> AVISO LEGAL</a></li>
+								<li><a href=""> NEWSLETTER</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<h3>SERVCIOS</h3>
+							<ul>
+								<li><a href=""> NUESTRO BLOG</a></li>
+								<li><a href=""> BOLSA DE EMPLEO</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="calidad" >
+								<li  id="icon-facebook" class="img-item">
+								</li>
+								<li  id="icon-twitter" class="img-item">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12" style="text-align:center;">
+			</div>
+		</div>
+	</div>
+</div>
+<hr />
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<ul class="calidad" >
+				<li  id="one" class="img-item">
+				</li>
+				<li  id="two" class="img-item">
+				</li>
+				<li  id="three" class="img-item">
+				</li>
+				<li  id="four" class="img-item">
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<hr />
+<div class="container">
+	<p class="copyright">POLITECNICO AMERICANO Copyright 2016 - <span>Aviso Legal</span> - <span>Politica de Calidad</span> - <span>Politica de Cookie</span></p>
+</div>
+</footer>
